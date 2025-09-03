@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    # Set deployment path
+    - export DEPLOYPATH=/home/onsetjewellery/public_html
+
+    # Copy all repo files into the deployment path (overwrite only)
+    - /bin/cp -R * $DEPLOYPATH

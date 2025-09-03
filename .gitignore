@@ -1,0 +1,8 @@
+logs/
+tmp/
+public_ftp/
+*.zip
+cgi-bin/
+node_modules/
+dist/
+build/
